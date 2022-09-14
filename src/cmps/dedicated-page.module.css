@@ -1,0 +1,219 @@
+.div73 {
+  position: relative;
+}
+.wrapper {
+  position: absolute;
+  z-index: 11;
+  top: 36px;
+  right: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.wrapper :global(> div) {
+  background: var(--c-a5);
+  letter-spacing: 0.05em;
+  border-radius: 2px;
+  padding: 4px 12px;
+  user-select: none;
+}
+.transfer_btn {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-right: 12px;
+  color: #fff;
+  line-height: 16px;
+  text-align: center;
+  width: fit-content;
+  cursor: pointer;
+}
+.sell_btn {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 16px;
+  text-align: center;
+  width: fit-content;
+  cursor: pointer;
+}
+.div62 {
+  height: 40px;
+  font-size: 14px;
+  overflow: hidden;
+  position: relative;
+}
+.div63 {
+  font-size: 13px;
+  background: #fee4e2;
+  color: #912018;
+  font-weight: 400;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  cursor: pointer;
+}
+.div2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  padding: 40px 0px 48px;
+}
+@media only screen and (max-width: 600px) {
+  .div2 {
+    grid-template-columns: 1fr;
+    padding: 12px;
+  }
+}
+.card1 {
+  padding: 0px;
+}
+.img5 {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .propertiescard46 {
+    display: none;
+  }
+}
+.card2 {
+  color: var(--c-g9);
+  margin-top: 24px;
+  margin-left: 48px;
+  padding-top: 10px;
+  flex: 1;
+}
+@media only screen and (max-width: 600px) {
+  .card2 {
+    margin-left: 0px;
+  }
+}
+.collection {
+  display: flex;
+}
+.div25 {
+  width: 250px;
+}
+.div27 {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--c-g5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.div28 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.div29 {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--c-g5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.div30 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+  white-space: nowrap;
+}
+.token {
+  margin-top: 64px;
+}
+.div7 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.div32 {
+  display: flex;
+
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.div34 {
+  width: 160px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.div35 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.div49 {
+  font-size: 14px;
+  color: #667085;
+}
+.buttons {
+  margin-top: 48px;
+  display: flex;
+}
+.div53 {
+  white-space: nowrap;
+  margin-right: 16px;
+  background: var(--c-a5);
+  padding: 16px 32px;
+  height: 48px;
+  color: #fff;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+}
+.div54 {
+  white-space: nowrap;
+  height: 48px;
+  background: #fff;
+  padding: 0px 32px;
+  color: #7f56d9;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #7f56d9;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.div68 {
+  margin-top: 24px;
+  letter-spacing: 0.02em;
+  color: #667085;
+  font-size: 16px;
+  font-weight: 600;
+}
+.a69 {
+  color: #7f56d9;
+  margin-left: 6px;
+  text-transform: capitalize;
+}
+.div51 {
+  margin-top: 24px;
+  letter-spacing: 0.02em;
+  color: var(--c-g5);
+  font-size: 16px;
+  font-weight: 600;
+}
+.propertiescard66 {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .propertiescard66 {
+    display: block;
+  }
+}

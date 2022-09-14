@@ -1,0 +1,246 @@
+.div1 {
+  height: 100px;
+  border-bottom: 1px solid var(--c-g2);
+  background: var(--c-g1);
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1),
+    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+@media only screen and (max-width: 600px) {
+  .div1 {
+    height: 140px;
+  }
+}
+.div22 {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  z-index: 100001;
+  background: #fff;
+  box-shadow: 0px 0px 10px #0003;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: var(--c-d6);
+  font-size: 14px;
+  font-weight: 600;
+}
+.div24 {
+  margin-left: 10px;
+  background: var(--c-d6);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.div24:global(:hover) {
+  background: #991b1b;
+}
+.div5 {
+  padding: 0px 32px;
+  max-width: var(--max-width);
+  margin: 0px auto;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  background: var(--c-g1);
+}
+@media only screen and (max-width: 600px) {
+  .div5 {
+    padding: 0px 12px;
+    flex-wrap: wrap;
+  }
+}
+.div16 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.img13 {
+  height: 32px;
+  margin-right: 12px;
+}
+.div6 {
+  font-weight: 700;
+  font-size: 42px;
+  cursor: pointer;
+  color: var(--c-g9);
+}
+.spacer {
+  flex: 1;
+}
+.div17 {
+  text-transform: uppercase;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 12px;
+  user-select: none;
+  opacity: 0.7;
+}
+.div17:global(:hover) {
+  opacity: 1;
+}
+.div17 :global(*) {
+  transition: all 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+.div17:global(.light svg) {
+  overflow: visible;
+  transform: rotate(90deg);
+}
+.div17:global(.dark svg) {
+  transform: rotate(40deg);
+}
+.div17:global(.light #m1) {
+  x: 0;
+  y: 0;
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
+.div17:global(.light #m2) {
+  cx: 25;
+  cy: 0;
+  r: 8;
+  fill: black;
+}
+.div17:global(.light #c0) {
+  cx: 9;
+  cy: 9;
+  fill: var(--c-g9);
+  mask: url(#moon-mask-main-nav);
+  r: 5;
+}
+.div17:global(.light #c1) {
+  cx: 17;
+  cy: 9;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(1);
+}
+.div17:global(.light #c2) {
+  cx: 13;
+  cy: 15.928203230275509;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(1);
+}
+.div17:global(.light #c3) {
+  cx: 5.000000000000002;
+  cy: 15.92820323027551;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(1);
+}
+.div17:global(.light #c4) {
+  cx: 1;
+  cy: 9.000000000000002;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(1);
+}
+.div17:global(.light #c5) {
+  cx: 4.9999999999999964;
+  cy: 2.071796769724492;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(1);
+}
+.div17:global(.light #c6) {
+  cx: 13;
+  cy: 2.0717967697244912;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(1);
+}
+.div17:global(.dark #m1) {
+  x: 0;
+  y: 0;
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
+.div17:global(.dark #m2) {
+  cx: 10;
+  cy: 2;
+  r: 8;
+  fill: black;
+}
+.div17:global(.dark #c0) {
+  cx: 9;
+  cy: 9;
+  fill: var(--c-g9);
+  mask: url(#moon-mask-main-nav);
+  r: 8;
+}
+.div17:global(.dark #c1) {
+  cx: 17;
+  cy: 9;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(0);
+}
+.div17:global(.dark #c2) {
+  cx: 13;
+  cy: 15.928203230275509;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(0);
+}
+.div17:global(.dark #c3) {
+  cx: 5.000000000000002;
+  cy: 15.92820323027551;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(0);
+}
+.div17:global(.dark #c4) {
+  cx: 1;
+  cy: 9.000000000000002;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(0);
+}
+.div17:global(.dark #c5) {
+  cx: 4.9999999999999964;
+  cy: 2.071796769724492;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(0);
+}
+.div17:global(.dark #c6) {
+  cx: 13;
+  cy: 2.0717967697244912;
+  r: 1.5;
+  fill: var(--c-g9);
+  transform-origin: center center;
+  transform: scale(0);
+}
+
+@media only screen and (max-width: 600px) {
+  .wallet_card {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

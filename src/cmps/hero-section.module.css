@@ -1,0 +1,43 @@
+.div1 {
+  display: grid;
+  align-items: center;
+  background: var(--c-g0);
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+}
+@media only screen and (max-width: 600px) {
+  .div1 {
+    grid-template-columns: 1fr;
+    padding: 12px;
+    gap: 20px;
+  }
+}
+.div2 {
+  line-height: 1.4;
+}
+.div3 {
+  color: var(--c-g9);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.3;
+  padding-bottom: 24px;
+  white-space: pre-wrap;
+}
+.div4 {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--c-g5);
+  white-space: pre-wrap;
+}
+.div5 {
+  flex-shrink: 0;
+  background-image: var(--var1);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+@media only screen and (max-width: 600px) {
+  .div5 {
+    height: 400px;
+  }
+}

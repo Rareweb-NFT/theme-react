@@ -1,0 +1,389 @@
+.table {
+  margin-top: 48px;
+  border: 1px solid var(--c-g2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.div3 {
+  height: 60px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background: var(--c-g2);
+}
+.div3 :global(> div) {
+  height: 40px;
+  display: flex;
+  margin: 0px 12px;
+  padding: 0px 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: var(--c-g6);
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  user-select: none;
+}
+.div3 :global(> div.sel) {
+  background: var(--c-g0);
+  border-radius: 8px;
+  color: var(--c-g9);
+  font-weight: 600;
+}
+.div3 :global(.sel svg *) {
+  stroke: var(--c-g9);
+  stroke-width: 1.5px;
+}
+@media only screen and (max-width: 600px) {
+  .div3 :global(> div) {
+    margin: 0px 8px;
+    font-size: 16px;
+  }
+}
+
+.div8 {
+  display: flex;
+  margin-right: 6px;
+}
+.div8 :global(svg *) {
+  stroke: var(--c-g8);
+}
+.div8 :global(*) {
+  width: 16px;
+  height: 16px;
+}
+.div6 {
+  margin-bottom: -1px;
+  font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .div6 {
+    width: calc(100vw - 48px);
+    overflow: auto;
+  }
+}
+.div77 {
+  border-bottom: 1px solid var(--c-g2);
+  min-width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+.div77 :global(> div) {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--c-g5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.div94 {
+  width: 32px;
+}
+.div78 {
+  width: 120px;
+}
+.div79 {
+  text-align: right;
+  width: 60px;
+}
+.div80 {
+  width: 100px;
+  text-align: right;
+}
+.div81 {
+  width: 80px;
+}
+.div12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--c-g2);
+  min-width: fit-content;
+  color: var(--c-g9);
+}
+.div12 :global(> div) {
+  font-size: 14px;
+  flex-shrink: 0;
+}
+.div95 {
+  width: 32px;
+}
+.div96 {
+  color: var(--c-p6);
+  display: flex;
+  align-items: center;
+}
+.div82 {
+  width: 120px;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.div83 {
+  text-align: right;
+  width: 60px;
+}
+.div84 {
+  font-weight: 600;
+  width: 100px;
+  text-align: right;
+  white-space: nowrap;
+}
+.div89 {
+  width: 100px;
+  color: var(--c-g5);
+  text-align: right;
+}
+.div103 {
+  width: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+.div106 {
+  background: #dc2626;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 2px;
+  padding: 4px 12px;
+  line-height: 16px;
+  text-align: center;
+  width: fit-content;
+  cursor: pointer;
+}
+.div15 {
+  margin-bottom: -1px;
+}
+@media only screen and (max-width: 600px) {
+  .div15 {
+    width: calc(100vw - 48px);
+    overflow: auto;
+  }
+}
+.div18 {
+  padding: 48px 24px;
+  color: var(--c-g5);
+}
+.div31 {
+  width: 100%;
+}
+.div32 {
+  border-bottom: 1px solid var(--c-g2);
+  min-width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+.div32 :global(> div) {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--c-g5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 600px) {
+  .div32 {
+    padding: 16px 8px;
+  }
+}
+.div43 {
+  width: 180px;
+}
+.div44 {
+  text-align: right;
+  width: 160px;
+  margin-right: 20px;
+}
+.div45 {
+  width: 80px;
+}
+.div49 {
+  width: 60px;
+}
+.div35 {
+  color: var(--c-g9);
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--c-g2);
+  min-width: fit-content;
+}
+.div35 :global(> div) {
+  font-size: 14px;
+  color: var(--c-g9);
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 600px) {
+  .div35 {
+    padding: 16px 8px;
+  }
+}
+.div40 {
+  width: 180px;
+}
+.div47 {
+  font-weight: 600;
+}
+.div48 {
+  margin-top: 8px;
+  font-size: 12px;
+}
+.div48:global(.less) {
+  color: var(--c-r5);
+}
+.div48:global(.more) {
+  color: var(--c-gr5);
+}
+.div41 {
+  margin-right: 20px;
+  text-align: right;
+  width: 160px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.div42 {
+  width: 80px;
+}
+.div50 {
+  margin-left: -24px;
+  width: 80px;
+}
+@media only screen and (max-width: 600px) {
+  .div50 {
+    margin-left: 0px;
+  }
+}
+.div51 {
+  background: #4f46e5;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 32px;
+  border-radius: 100px;
+
+  line-height: 0px;
+}
+.div17 {
+  margin-bottom: -1px;
+}
+@media only screen and (max-width: 600px) {
+  .div17 {
+    width: calc(100vw - 48px);
+    overflow: auto;
+  }
+}
+.div19 {
+  padding: 48px 24px;
+  color: var(--c-g5);
+}
+.div112 {
+  border-bottom: 1px solid var(--c-g2);
+  min-width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+.div112 :global(> div) {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--c-g5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 600px) {
+  .div112 {
+    padding: 16px 8px;
+  }
+}
+.div108 {
+  width: 80px;
+}
+.div109 {
+  width: 100px;
+}
+.div110 {
+  width: 160px;
+}
+.div111 {
+  width: 160px;
+}
+.div113 {
+  width: 100px;
+}
+.div120 {
+  width: 18px;
+}
+.div54 {
+  color: var(--c-g9);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--c-g2);
+  padding: 16px 24px;
+  font-size: 14px;
+  min-width: fit-content;
+}
+.div54 :global(> div) {
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 600px) {
+  .div54 {
+    padding: 16px 8px;
+  }
+}
+.div55 {
+  width: 80px;
+}
+.div73 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.div114 {
+  font-weight: 500;
+  width: 100px;
+}
+.div115 {
+  width: 160px;
+  text-transform: uppercase;
+}
+.div116 {
+  width: 160px;
+  text-transform: uppercase;
+}
+.div117 {
+  width: 100px;
+  white-space: nowrap;
+}
+.div118 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 18px;
+}
+.div119 {
+  display: flex;
+  cursor: pointer;
+}
+.div119 :global(svg *) {
+  stroke: var(--c-g9);
+}
+.div119 :global(*) {
+  width: 14px;
+  height: 14px;
+}
+.div119:global(:hover *) {
+  width: 16px;
+  height: 16px;
+}

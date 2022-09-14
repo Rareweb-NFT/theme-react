@@ -1,0 +1,139 @@
+.card3 {
+  border: 1px solid var(--c-g2);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 48px;
+  color: var(--c-g9);
+}
+.div3 {
+  height: 60px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background: var(--c-g2);
+}
+.div3 :global(> div) {
+  height: 40px;
+  display: flex;
+  margin: 0px 12px;
+  padding: 0px 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: var(--c-g6);
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  user-select: none;
+}
+.div3 :global(> div.sel) {
+  background: var(--c-g0);
+  border-radius: 8px;
+  color: var(--c-g9);
+  font-weight: 600;
+}
+.div4 {
+  padding: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .div4 {
+    padding: 24px 12px;
+  }
+}
+.div14 {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--c-g5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.div15 {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--c-g8);
+}
+.div17 {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--c-g5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.div37 {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 8px;
+  grid-gap: 10px;
+}
+.div39 {
+  color: var(--c-2);
+  background: var(--c-g2);
+  border-radius: 4px;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+.div40 {
+  color: var(--c-p6);
+  font-size: 12px;
+  font-weight: 500px;
+  margin-bottom: 8px;
+}
+.div41 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--c-g9);
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.div42 {
+  white-space: nowrap;
+  font-size: 12px;
+  color: var(--c-g5);
+  font-weight: 500;
+  display: none;
+}
+.div21 {
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.div23 {
+  width: 50%;
+  text-align: var(--var1);
+  margin-bottom: 32px;
+}
+.div24 {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--c-g5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.a25 {
+  margin-top: 8px;
+  font-size: 16px;
+  display: block;
+
+  color: unset;
+  text-decoration: unset;
+  cursor: pointer;
+}
+.a25 :global(> div) {
+  display: inline;
+}
+.div34 {
+  margin-left: 8px;
+  display: inline-flex;
+}
+.div34 :global(svg *) {
+  stroke: var(--c-g9);
+}
+.div32 {
+  margin-top: 8px;
+  font-size: 16px;
+}

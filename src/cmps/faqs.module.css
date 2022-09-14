@@ -1,0 +1,59 @@
+.div7 {
+  padding: 24px 32px;
+  color: var(--c-g7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  user-select: none;
+}
+
+.div8 {
+  width: 800px;
+  margin: 0px auto;
+  padding-bottom: 48px;
+}
+@media only screen and (max-width: 600px) {
+  .div8 {
+    width: 100%;
+    padding: 12px;
+  }
+}
+.div2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 32px;
+  padding: 24px 0px;
+  color: var(--c-g9);
+}
+.div6 {
+  color: var(--c-g9);
+  height: 80px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 32px;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  cursor: pointer;
+
+  border: 1px solid var(--c-g4);
+  border-radius: 0px;
+}
+.div6:global(:hover) {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.div9 {
+  flex: 1;
+}
+.div10 {
+  display: flex;
+}
+.div10 :global(svg *) {
+  stroke: var(--c-g9);
+}
+.div10 :global(*) {
+  width: 24px;
+  height: 24px;
+}

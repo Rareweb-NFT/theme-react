@@ -1,0 +1,72 @@
+.div1 {
+  background: var(--c-g2);
+}
+.div5 {
+  max-width: var(--max-width);
+  margin: 0px auto;
+  height: 100%;
+  padding: 48px 32px;
+}
+@media only screen and (max-width: 600px) {
+  .div5 {
+    display: block;
+    padding: 48px 12px;
+  }
+}
+.div3 {
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--c-g9);
+}
+.div15 {
+  margin-top: 8px;
+  color: var(--c-g6);
+}
+.div9 {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media only screen and (max-width: 600px) {
+  .div9 {
+    display: block;
+  }
+  .div9 :global(> div) {
+    margin-bottom: 24px;
+  }
+}
+.div7 {
+  margin-top: 24px;
+  font-size: 16px;
+  color: var(--c-g6);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.div7:global(:hover) {
+  text-decoration: underline;
+  color: var(--c-g9);
+}
+
+@media only screen and (max-width: 600px) {
+  .div13 {
+    margin-top: 64px;
+  }
+}
+.div10 {
+  display: flex;
+}
+.div11 {
+  display: flex;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.div11 :global(svg *) {
+  fill: var(--c-g9);
+}
+.div14 {
+  font-size: 14px;
+  margin-top: 24px;
+  color: var(--c-g6);
+  text-align: right;
+}
