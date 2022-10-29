@@ -28,9 +28,9 @@ export default function PropertiesCard(P) {
     ],
     collection: [
       { name: 'collection name', value: nft.collection_name },
-      { name: 'tokens', value: nft.total_tokens },
+      { name: 'tokens', value: nft.total_tokens || 0 },
       { name: 'contract', value: nft.contract },
-      { name: 'owners', value: nft.owners },
+      { name: 'owners', value: nft.owners || 0 },
       {},
       { name: 'floor', value: 12 }
     ]
@@ -85,7 +85,7 @@ export default function PropertiesCard(P) {
                   <div>{RW.shortA(o.value)}</div>
                   <div className={S.div34} dangerouslySetInnerHTML={{ __html: icons.visit }}></div>
                 </a>
-              )) || <div className={S.div32}>{o.value || ''}</div>}
+              )) || <div className={S.div32}>{o.value == undefined ? '' : o.value}</div>}
             </div>
           ))}
         </div>
